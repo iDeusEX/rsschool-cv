@@ -12,7 +12,7 @@
 
 ## A bit about me
 
-I am a private entrepreneur. I have good communication and interpersonal skills, I can solve problems that arise in the process, I learn quickly. I want to develop in a new direction, which has always been interesting, but for which there was not enough time. It will be  an interesting experience for me to work in a team. Hope that my skiils will develop as fast as I want to reach my targets.
+I am a private entrepreneur. I have good communication and interpersonal skills, I can solve problems that arise in the process, I learn quickly. I want to develop in a new direction, which has always been interesting, but for which there was not enough time. It will be an interesting experience for me to work in a team. Hope that my skiils will develop as fast as I want to reach my targets.
 
 ---
 
