@@ -1,10 +1,17 @@
+@font-face {
+  font-family: 'Inter';
+  src: url("assets/fonts/Inter-Thin.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("assets/fonts/Inter-Regular.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("assets/fonts/Inter-Bold.otf");
+}
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
-    font-size: 12px;
-  }
+  box-sizing: border-box;
+}
