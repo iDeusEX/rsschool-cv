@@ -1,3 +1,7 @@
+
+html {
+  scroll-behavior: smooth; 
+}
 @font-face {
   font-family: 'Inter';
   src: url("assets/fonts/Inter-Thin.otf");
@@ -15,4 +19,20 @@
 }
 * {
   box-sizing: border-box;
+}
+.header {background: #6e9b9b; color: #fdfdfd; padding: 12px;}
+.body {min-height: 100vh; margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+.container {
+  max-width: 1440px;
+  margin: auto;
+  }
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
 }
