@@ -10,12 +10,11 @@ html {
 @font-face {
   font-family: 'Inter';
   src: url("assets/fonts/Inter-Regular.otf");
-  font-weight: 200;
 }
 @font-face {
   font-family: 'Inter';
   src: url("assets/fonts/Inter-Bold.otf");
-  font-weight: 400;
+  font-weight: 300;
 }
 * {
   box-sizing: border-box;
@@ -23,19 +22,7 @@ html {
 .header {
   background: #6e9b9b;
   color: #fdfdfd;
-  padding: 12px;}
-.body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-width: 320px;
-  min-height: 100vh;
-  margin: 0; 
-  padding: 0;
-}
-.container {
-  max-width: 1440px;
-  margin: auto;
+  padding: 12px;
 }
 .nav-list {
   display: flex;
@@ -47,9 +34,53 @@ html {
 padding: 0 20px;
 line-height: 50px;
 transition: .3s;
+text-decoration: none;
+font-size: 20px;
+color: #fdfdfd;
+}
+.body {
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 50px;
+  margin: 0; 
+  padding: 0;
+}
+.profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 35px 100px 35px;
+  border-bottom: 5px solid #6e9b9b;
+}
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.main-title {
+  color: #406565;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.profile-photo {
+  width: 250;
+  height: 250;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 9px rgb(27, 77, 93);
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
 }
 .main {
   margin-bottom: auto;
+  margin: 40px;
 }
 .main-container {
   display: flex;
@@ -57,7 +88,22 @@ transition: .3s;
   justify-content: space-between;
 }
 .section {
-  width: 50%;
+  width: calc(50% - 20px);
+}
+.footer {
+  background: #6e9b9b;
+  padding: 20px;
+}
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  color: #fdfdfd;
+}
+.github-link {
+  color: #fdfdfd;
 }
 @media (max-width: 768px) {
   .section {
