@@ -6,11 +6,12 @@
 @font-face {
   font-family: 'Inter';
   src: url("assets/fonts/Inter-Regular.otf");
-  font-weight: 300;
+  font-weight: 200;
 }
 @font-face {
   font-family: 'Inter';
   src: url("assets/fonts/Inter-Bold.otf");
+  font-weight: 400;
 }
 * {
   box-sizing: border-box;
